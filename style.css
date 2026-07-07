@@ -49,38 +49,36 @@ li {
     margin: 15px;
 }
 
-
-
-
-
 .Hero {
     display: flex;
     flex: 2 1 0%;
     justify-content: center ;
     margin-left: 20%;
     margin-right: 20%;
+    align-items: stretch;
 }
 
 .Hero-text {
     display: flex;
     flex-direction: column;
-
     flex: 1;
 }
 
-.Hero-text p1 {
+.Main-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 
 }
 
-.Hero-text p2 {
+.subtext {
     color: #E5E7EB;
+    font-size: 18px;
 }
 
 .Hero-text div {
     color: #F9FAF8;
+    display: flex;
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -91,21 +89,28 @@ li {
     width: 125px;
     Font-size: 18px;
     font-weight: bold;
-    align-content: center;
-    justify-content: center
-    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
 }
-
 
 .image {
+    display: flex;
     flex: 1;
-    color: #F9FAF8;
-
-
+    color: #F9FAF8; 
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    background-color: #989898;
 }
 
 
 
+.second-section {
+    display: flex;
+    height: 500px;
+    background-color: #cfcfcf;
+}
 
 
 
